@@ -1,0 +1,10 @@
+Brasilerao =[ "Palmeiras", "Santos", "Atlético", "Botafogo", "Flamengo", "Bahia", "Internacional", "São Paulo", "Goiás", "Corinthians", "Atlético PE","Grêmio","Ceará SC","fortaleza", "Cruzeiro", "fluminense", "Chapecoense", "Vasco da Gama", "CSA", "Avaí" ]
+chape = Brasilerao.index("Chapecoense")
+print("os 5 primeiros colocados são ")
+print("\n1º", Brasilerao[0],"\n2º", Brasilerao[1],"\n3º", Brasilerao[2],"\n4º", Brasilerao[3],"\n5º", Brasilerao[4], )
+print("\nOs lanterninhas são")
+print("\n17º", Brasilerao[-4],"\n18º", Brasilerao [-3], "\n19º", Brasilerao [-2],"\n20º", Brasilerao [-1])
+print("\n a posição da chapecoense é","%sª posição" %(chape) )
+print("lista dos times em ordem alfabética")
+Brasilerao.sort()
+print('\n',Brasilerao,)
